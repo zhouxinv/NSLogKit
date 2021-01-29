@@ -6,12 +6,15 @@
 //
 
 #import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
 
 NS_ASSUME_NONNULL_BEGIN
 
 @interface VVLogSDK : NSObject
 
 - (void)sayHello;
+
+- (void)addMenuWithView:(UIView *)view;
 
 @end
 
